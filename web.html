@@ -1,0 +1,18 @@
+<!00CTYPE html>
+<html lang="zh">
+    <head>
+     <neta charset="UTF-8"/>
+     <neta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>听说大眼萌猫很可爱</title>
+</head>
+<body>
+<h1>这是一只大猫咪</h1>
+<p>这是一只大眼萌猫</p >
+<ul>
+<li>
+</body>
+</html>
+<img src="tp.jpg" alt="图片替代说明文字" width="200" /><img
+ 	src="https://pic4.zhimg.com/v2-149c726ff219b8c678783b0ca5cae6e6_r.jpg?source=1940ef5c"
+    alt="说明文字"
+    
