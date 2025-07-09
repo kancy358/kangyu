@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fefae0; /* Creamy yellow */
+  --foreground: #606c38; /* Olive green */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #283618; /* Dark olive */
+    --foreground: #fefae0; /* Creamy yellow */
+  }
+}
+
+body {
+  background-image: url('/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: "Comic Sans MS", "Chalkboard SE", "Marker Felt", sans-serif;
+}
